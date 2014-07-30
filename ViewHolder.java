@@ -24,10 +24,8 @@ import com.squareup.picasso.RequestCreator;
  * ViewHolder for Adapter view
  * */
 public class ViewHolder {
-
-	private SparseArray<View> holder;// Holds the views, using resource id as index of the view
-	
-	public View convertView;
+    private SparseArray<View> holder;// Holds the views, using resource id as index of the view
+    public View convertView;
 
     public ViewHolder(){
         holder = new SparseArray<View>();

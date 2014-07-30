@@ -1,7 +1,6 @@
 A clever capsulation of View Holder pattern in Android:
 
     public class ItemsAdapter extends ArrayAdapter<Item> {
-      
       private final static int resource = R.layout.list_home_items;
       private Context context;
       
